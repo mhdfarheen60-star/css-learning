@@ -1,0 +1,67 @@
+/* Simple styles for the Photography page */
+* {
+  text-align: center;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7ff, #e8f4ff);
+  color: #1f2937;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+  h1{
+    border: 2px solid goldenrod;
+    padding: 10px 20px ;
+    margin: 50px 20px;
+    
+}
+label{
+    border: 2px solid goldenrod;
+    padding: 10px 20px 10px;
+    margin: 50px 20px;
+}
+
+.profile {
+  width: 555px;
+  height: 514px;
+  object-fit: cover;
+  border: 4px solid #7c3aed;
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.25);
+}
+
+.text {
+  margin-top: 18px;
+}
+
+.text p {
+  margin: 0 auto;
+  max-width: 750px;
+  line-height: 1.7;
+  color: #111827;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(6px);
+  text-align: justify;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #7c3aed;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
