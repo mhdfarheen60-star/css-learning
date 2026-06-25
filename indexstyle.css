@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+font-family:Inconsolata;
+}
+header{
+    background-color: #7093c8;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+.links{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+.linkshover
+{
+    color: #ff0000;
+    transition: 0.5s;
+}
+#home{
+    display:flex;
+  
+}
+.home-section
+{
+    margin: 330px 100px;
+    height: 450%;
+    width: 50%;
+}
+#dwnld{
+    background-color: #000000;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10%;
+    text-decoration: none;
+}
